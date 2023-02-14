@@ -10,19 +10,17 @@ commit;
 connect reservation/manager;
 
 - Tables:
-create table admin6(uname varchar2(40) primary key,name varchar2(40),
-	pword varchar2(50),mail_id varchar2(60),phone_no varchar2(12));
+
+create table admin6(uname varchar2(40) primary key,name varchar2(40),pword varchar2(50),mail_id varchar2(60),phone_no varchar2(12));
 	
-create table train6(tr_no number(10) primary key,tr_name varchar2(70),
-	from_stn varchar2(20),to_stn varchar2(20),available number(5),fare number(5));
+create table train6(tr_no number(10) primary key,tr_name varchar2(70),from_stn varchar2(20),to_stn varchar2(20),available number(5),fare number(5));
 	
 create table ticket2 (pnr varchar2(10) primary key, tr_number number not null, tr_name varchar2(100) not null, from_stn varchar2(100) not null, to_stn varchar2(100) not null, seat number not null);
 
-create table register(uname varchar2(40) primary key,pword varchar2(50),
-	fname varchar2(40),lname varchar2(40),
-	addr varchar2(100), phno varchar2(12), mailid varchar2(60));
+create table register(uname varchar2(40) primary key,pword varchar2(50),fname varchar2(40),lname varchar2(40),addr varchar2(100), phno varchar2(12), mailid varchar2(60));
 
-- Values:
+- Values for the tables:
+
 insert into admin6 values('admin','admin','admin','admin@tiu.edu','8909878908');
 insert into train6 values(13113,'Hazarduari Express','Kolkata','Berhampore Court',300,100);
 insert into train6 values(22301,'New Jalpaiguru Vande Bharat Express','Howrah Junction','New Jalpaiguri Junction',400,1565);
