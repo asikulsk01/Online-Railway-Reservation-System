@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>ADMIN LOGIN</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(rail.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+		.hd1{
+			text-align: center;
+			padding:10px;
+			margin-left: 5%;
+			margin-right: 5%;
+			color: #00FFFF;
+			font-weight: bold;
+			font-size:50px;
+		}
+		.hd {
+    color: DeepPink;
+    font-weight: bold;
+			font-size:50px;
+			padding:10px;
+			margin-left: 5%;
+			margin-right: 5%;
+			text-align: center;
+    text-shadow: 0 1px 0 #000000, 0 2px 0 #FFA500,
+             0 3px 0 #000000, 0 5px 0 #FFFFFF,
+             0 10px 0 #000000, 0 6px 0 #000000,
+             0 8px 0 #000000, 0 8px 7px #000000 ,
+             0 9px 20px #000000;
+             
+           
+}
+		.main{
+			border:3px black solid;
+			background-color: #90EE90;
+			border-radius: 20px;
+			text-align: center;
+			margin-left:26%;
+			margin-right: 50%;
+			padding:10px;
+			margin-bottom: 10px;
+			width:550px;
+			color:red;
+		}
+		.menu{
+			border:2px black solid;
+			border-radius: 13px;
+			background-color: white;
+			color: black;
+			font-weight: bold;
+			font-size:18px;
+			text-align: center;
+			margin-right:15px;
+			padding:5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			width:100px;
+		}
+		a:hover{
+		color:red;
+	}
+	a:link{
+		color: green;
+		text-decoration: none;
+	}
+	.tab{
+		border:3px black solid;
+		border-radius: 15px;
+		background-color: #FFE5CC;
+		margin-left: 30%;
+		width:450px;
+		color:red;
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 22px;
+		margin-bottom:10px;
+		padding:10px;
+	}
+	.yel{
+	color:yellow;
+	}
+	.red{
+		color:red;
+	}
+	.green{
+		color:black;
+	}
+	.brown{
+		color:black;
+	}
+	footer{
+		margin-top: 15%;
+	}
+	.button {
+  background-color: #B2361C;
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-align:center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 10}
+	</style>
+</head>
+<body>
+<header>
+	<h1 class="hd">TECHNO INDIA MCA RAIL SERVICE  <br/>[ TIMRS ]</h1>
+	<div class="main">
+		<p1 class="menu"><a href="UserLogin.html">Login as User</a></p1>
+		<p1 class="menu"><a href="UserRegister.html">New User</a></p1>
+		<p1 class="menu"><a href="AdminLogin.html">Login as Admin</a></p1>
+	</div>
+</header>
+<div class="tab green">Admin Login</div>
+<form action="adminlogin" class="tab brown" method="post">
+		<br/>User Name: <input type="text" name="uname" ><br/><br/>
+		Password: <input type="password" name="pword"><br/><br/>
+		<input type="submit" value=" LOGIN " class="button"><br/>
+
+	</form><br/>
+
+</body>
+</html>

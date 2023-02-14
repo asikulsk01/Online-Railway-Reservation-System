@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>LOGIN</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(forest.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+		.hd {
+    color: DeepPink;
+    font-weight: bold;
+			font-size:50px;
+			padding:10px;
+			margin-left: 5%;
+			margin-right: 5%;
+			text-align: center;
+    text-shadow: 0 1px 0 #000000, 0 2px 0 #FFA500,
+             0 3px 0 #000000, 0 5px 0 #FFFFFF,
+             0 10px 0 #000000, 0 6px 0 #000000,
+             0 8px 0 #000000, 0 8px 7px #000000 ,
+             0 9px 20px #000000;
+                       
+		}
+		.main{
+			border:3px black solid;
+			background-color: DarkCyan;
+			border-radius: 5px;
+			text-align: center;
+			margin-left:365px;
+			margin-right: 5px;
+			padding:10px;
+			margin-bottom: 10px;
+			width:600px;
+			color:red;
+		}
+		.menu{
+			border:2px black solid;
+			border-radius: 13px;
+			background-color: white;
+			color:green;
+			font-weight: bold;
+			font-size:18px;
+			text-align: center;
+			margin-right:15px;
+			padding:5px;
+			padding-left: 10px;
+			padding-right: 10px;
+			width:130px;
+		}
+		a:hover{
+		color:red;
+	}
+	a:link{
+		color: green;
+		text-decoration: none;
+	}
+	.tab{
+		border:1px black solid;
+		border-radius: 2px;
+		background-color: #FFE5CC;
+		margin-left: 30%;
+		width:600px;
+		color:red;
+		font-weight: bold;
+		font-style:normal;
+		text-align:center;
+		font-size: 20px;
+		margin-bottom:10px;
+		padding:10px;
+	}
+	.yel{
+	color:yellow;
+	}
+	.red{
+		color:red;
+	}
+	.green{
+		color: black;
+		}
+	.brown{
+		color: black;
+		}
+	.blue{
+		color:blue;
+	}
+	.button {
+  background-color: green;
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  text-align:center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 10}
+
+	</style>
+</head>
+<body>
+<header>
+	<h1 class="hd">TECHNO INDIA MCA RAIL SERVICE<br/>[ TIMRS ]</h1>
+	<div class="main">
+		<p1 class="menu"><a href="UserLogin.html">Login as User</a></p1>
+		<p1 class="menu"><a href="UserRegister.html">New User</a></p1>
+		<p1 class="menu"><a href="AdminLogin.html">Login as Admin</a></p1>
+	</div>
+</header>
+<table class="tab brown ">
+		<tr>
+			<td>New User Registration</td>
+		</tr>
+	</table>
+
+	<table class="tab green" border="0px">
+		
+		<tr>
+			<td>
+				<form action="userreg" method="post">
+					Username   : <input type="text" name="uname" placeholder="Enter Username" required><br/><br/>
+					Password   : <input type="password" name="pword" required><br/><br/>
+					First Name : <input type="text" name="firstname" required><br/><br/>
+					Last Name  : <input type="text" name="lastname" required><br/><br/>
+					Addrress   : <input type="text" name="address" required><br/><br/>
+					Phone No   : <input type="number" name="phoneno" required><br/><br/>
+					Email Id   : <input type="email" name="mailid" required><br/><br/>
+					<input type="submit" value=" I AGREE FOR ALL TERMS & CONDITIONS ! REGISTER ME " text-align="center" class="button">
+				</form>
+			</td>
+			
+		</tr>  
+	</table>
+	
+	</div>
+
+</body>
+</html>

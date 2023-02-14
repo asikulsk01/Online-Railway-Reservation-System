@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+		  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<title>Admin Home</title>
+	<link rel="stylesheet" href="admin_Css2.css">
+	<style>
+.button {
+  background-color: blue;
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-align:center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 10}
+
+
+
+	</style>
+</head>
+
+<body>
+<header>
+		<h1 class="hd">TECHNO INDIA MCA RAIL SERVICE  <br/>[ TIMRS ]</h1>
+	<div class="home">
+		<p1 class="menu"><a href="AdminHome.html">Home</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminsearchtrainfwd">Search Trains</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminviewtrainfwd">View Trains</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="addtrainfwd">Add Train</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="cancletrainfwd">Cancel Train </a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="updatetrain">Update Schedule</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminlogout">Logout</a></p1>
+	</div>
+<div class='tab'>
+		<p1 class='menu'>
+	Hey, Admin ! Welcome to our new TIMRS Website
+		</p1>
+</div>
+<div class="main"><p1 class="menu">Search Trains</p1></div>
+<form action="adminsearchtrain" class="tab red" method="post"><br/>
+		Train Number: <input type="text" name="trainnumber"><br/><br/>
+		
+		<input type="submit" value=" SEARCH TRAIN " class= "button">
+		
+	</form><br/>
+</body>
+</html>
